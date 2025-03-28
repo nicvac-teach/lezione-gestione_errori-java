@@ -74,7 +74,7 @@ public class EsercizioLezione {
         try {
             Scanner in = new Scanner( new FileReader("fileDaLeggere.txt"));
         } catch (FileNotFoundException e) {
-            System.out.println("Erroe nella lettura del file. Errore: " +e.getMessage());
+            System.out.println("Errore nella lettura del file. Errore: " +e.getMessage());
         }
     }
 
